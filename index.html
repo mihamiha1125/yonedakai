@@ -1,88 +1,108 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>米田会 | Yoneda Business Community｜神奈川大学・起業ビジネスコミュニティ</title>
-<meta name="description" content="神奈川大学発の起業・ビジネスコミュニティ「米田会」。学び×実践×仲間で、挑戦をひとりにしない場所。学生の方・企業の方それぞれの入口をご用意しています。" />
-<meta name="theme-color" content="#141F38" />
-<meta property="og:title" content="米田会 | Yoneda Business Community" />
-<meta property="og:description" content="神奈川大学発。学び×実践×仲間で挑戦をひとりにしないコミュニティ。" />
-<meta property="og:type" content="website" />
-<link rel="icon" type="image/png" href="assets/logo-128.png" />
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Shippori+Mincho:wght@600;700;800&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
 
-<!-- 構造化データ（SEO用 JSON-LD） -->
-<script type="application/ld+json">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>米田会 | Yoneda Business Community｜神奈川大学・起業ビジネスコミュニティ</title>
+  <meta name="description" content="神奈川大学発の起業・ビジネスコミュニティ「米田会」。学び×実践×仲間で、挑戦をひとりにしない場所。学生の方・企業の方それぞれの入口をご用意しています。" />
+  <meta name="theme-color" content="#141F38" />
+  <meta property="og:title" content="米田会 | Yoneda Business Community" />
+  <meta property="og:description" content="神奈川大学発。学び×実践×仲間で挑戦をひとりにしないコミュニティ。" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yonedakai.pages.dev/" />
+  <meta property="og:image" content="https://yonedakai.pages.dev/assets/ogp.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="米田会 | Yoneda Business Community" />
+  <meta name="twitter:description" content="神奈川大学発。学び×実践×仲間で挑戦をひとりにしないコミュニティ。" />
+  <meta name="twitter:image" content="https://yonedakai.pages.dev/assets/ogp.png" />
+
+  <!-- 構造化データ (JSON-LD) -->
+  <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"Organization","name":"米田会","alternateName":"Yoneda Business Community","description":"神奈川大学発の起業・ビジネスコミュニティ。学び×実践×仲間で、挑戦をひとりにしない場所。"}
 </script>
 
-<link rel="stylesheet" href="style.css">
+  <!-- ファビコン -->
+  <link rel="icon" type="image/png" href="assets/logo-128.png" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Shippori+Mincho:wght@600;700;800&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- スタイルシート -->
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-<!-- スクロールプログレスバー -->
-<div id="prog" aria-hidden="true"></div>
+  <!-- スクロールプログレスバー -->
+  <div id="prog" aria-hidden="true"></div>
 
-<!-- ヘッダー / ナビゲーション -->
-<header id="hdr">
-  <a href="#/" class="logo">
-    <img class="logo-img" alt="米田会">
-    <span class="jp">米田会</span>
-  </a>
-  <button class="burger" id="burger" aria-label="メニュー">
-    <span></span>
-    <span></span>
-    <span></span>
-  </button>
-  <nav class="nav" id="nav">
-    <a href="#/about">米田会について</a>
-    <a href="#/activities">活動</a>
-    <a href="#/news">お知らせ</a>
-    <a href="#/students">学生の方へ</a>
-    <a href="#/partners">企業の方へ</a>
-    <a href="#/contact" class="cta">お問い合わせ</a>
-  </nav>
-</header>
+  <!-- ヘッダー -->
+  <header id="hdr">
+    <a href="#/" class="logo">
+      <img src="./img/IMG_9578.PNG" class="logo-img" alt="米田会">
+      <span class="jp">米田会</span>
+    </a>
+    <button class="burger" id="burger" aria-label="メニュー">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="nav" id="nav">
+      <a href="#/about">米田会について</a>
+      <a href="#/activities">活動</a>
+      <a href="#/news">お知らせ</a>
+      <a href="#/students">学生の方へ</a>
+      <a href="#/partners">企業の方へ</a>
+      <a href="#/contact" class="cta">お問い合わせ</a>
+    </nav>
+  </header>
 
-<!-- メインコンテンツ（JavaScriptが動的に書き換える） -->
-<main id="app"></main>
+  <!-- メインコンテンツ（JavaScriptでルーティング） -->
+  <main id="app"></main>
 
-<!-- フッター -->
-<footer>
-  <div class="wrap">
-    <div class="foot-grid">
-      <div class="foot-brand">
-        <a href="#/" class="logo">
-          <img class="logo-img" alt="米田会">
-          <span class="jp">米田会</span>
-        </a>
-        <p>神奈川大学の起業・ビジネスコミュニティ。学び×実践×仲間で、挑戦をひとりにしない場所をつくります。</p>
+  <!-- フッター -->
+  <footer>
+    <div class="wrap">
+      <div class="foot-grid">
+        <div class="foot-brand">
+          <a href="#/" class="logo">
+            <img src="./img/IMG_9578.PNG" class="logo-img" alt="米田会">
+            <span class="jp">米田会</span>
+          </a>
+          <p>神奈川大学の起業・ビジネスコミュニティ。学び×実践×仲間で、挑戦をひとりにしない場所をつくります。</p>
+        </div>
+        <div class="foot-links">
+          <div class="foot-col">
+            <h4>About</h4>
+            <a href="#/about">米田会について</a>
+            <a href="#/activities">活動</a>
+            <a href="#/news">お知らせ</a>
+          </div>
+          <div class="foot-col">
+            <h4>Join / Partner</h4>
+            <a href="#/students">学生の方へ</a>
+            <a href="#/partners">企業・パートナーの方へ</a>
+            <a href="#/contact">お問い合わせ</a>
+          </div>
+        </div>
       </div>
-      <div class="foot-links">
-        <div class="foot-col">
-          <h4>About</h4>
-          <a href="#/about">米田会について</a>
-          <a href="#/activities">活動</a>
-          <a href="#/news">お知らせ</a>
-        </div>
-        <div class="foot-col">
-          <h4>Join / Partner</h4>
-          <a href="#/students">学生の方へ</a>
-          <a href="#/partners">企業・パートナーの方へ</a>
-          <a href="#/contact">お問い合わせ</a>
-        </div>
+      <div class="foot-bottom">
+        <span>© 2026 米田会 / Yoneda Business Community</span>
+        <span class="mono">KANAGAWA UNIVERSITY</span>
       </div>
     </div>
-    <div class="foot-bottom">
-      <span>© 2026 米田会 / Yoneda Business Community</span>
-      <span class="mono">KANAGAWA UNIVERSITY</span>
-    </div>
-  </div>
-</footer>
+  </footer>
 
-<script src="script.js"></script>
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+
 </body>
+
 </html>
