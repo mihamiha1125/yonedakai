@@ -10,7 +10,7 @@
 // IMG.logo と IMG.teirei は元のHTMLの <script> 内にある Base64 文字列を貼り付けてください。
 // 以下は変数名のみ定義しています。実際の値は元コードの IMG オブジェクトからコピーしてください
 const IMG = {
-  logo: "img/IMG_9578.PNG",
+  logo: "img/IMG_9578.png",
   teirei: "img/IMG_0226.jpg"
 };
 
